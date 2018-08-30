@@ -29,7 +29,7 @@
 
 
 $("#button").mouseenter(function(){
-    $(".hmh1").html("Let's find out! ......"+" ").delay(5000);
+    $(".hmh1").html("Let's find out! ......"+" ");
     
 });
 

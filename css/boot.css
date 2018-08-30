@@ -16,6 +16,10 @@ a:visited{
   text-indent:5%;
 }
 
+#lg {
+  margin-right:8px;
+}
+
 /*h1, h2 {
     -webkit-text-stroke: 0.9px #EBF908;
 }*/
@@ -328,6 +332,11 @@ h1 {
     min-height:100vh;
 }
 
+.thunder{
+  border-radius:50%;
+}
+
+/*
 .pro-img-is {
   height:220px;
   width:280px;
@@ -340,7 +349,7 @@ h1 {
   background-size: cover;
   background-repeat: no-repeat;
   background-position:center center;
-}
+}*/
 
 .infsth2 {
   color:white;
@@ -500,6 +509,15 @@ h1 {
   left:50%;
   transform:translate(-50%,-50%);
 }
+
+
+
+/*.scd3, .scd2, .scd1{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+}*/
 
 
 /*ddg page*/
