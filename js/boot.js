@@ -27,9 +27,25 @@
 
 /*jQuery for index page*/
 
-/*$(#button).click(function(){
-    $(.hmh1).text("Let's find out!").delay(5000);
+
+$("#button").mouseenter(function(){
+    $(".hmh1").html("Let's find out! ......"+" ").delay(5000);
     
+});
+
+/*$("#button").mouseout(function(){
+    $(".hmh1").html("Thank you! Mr. Sheldon Norman "+" ");
+    
+});*/
+
+
+/*$("#button").mouseenter(function(){
+    $(".hmh1").html("Let's find out! ......"+" ", function(){
+        $("#button").mouseout(function(){    
+            $(".hmh1").html("Thank you! Mr. Sheldon Norman "+" ");    
+    
+});    
+});
 });*/
 
 /*jQuery for schst6 page*/
@@ -80,16 +96,16 @@ $(document).ready(function(){
 $(document).ready(function(){
  $(".glbox, .glh1").hide();
     $(".glh1").delay(2000).fadeIn(2000, function(){
-        $(".gl5").delay(1800).fadeIn(2000, function(){
-     $(".gl4").delay(1000).fadeIn(2000, function(){
-       $(".gl1").delay(1000).fadeIn(2000, function(){
-         $(".gl2").delay(1000).fadeIn(2000, function(){
-         $(".gl3").delay(1000).fadeIn(2000, function(){
-          $(".gl6").delay(1000).fadeIn(2000, function(){
-          $(".gl9").delay(1000).fadeIn(2000, function(){
-            $(".gl8").delay(1000).fadeIn(2000, function(){             
-            $(".gl7").delay(1000).fadeIn(2000, function(){
-   $("#gallery").delay(2000).css("backgroundImage","url(img/blueaurora.jpg");             
+        $(".gl5").delay(2300).fadeIn(2000, function(){
+     $(".gl4").delay(2300).fadeIn(2000, function(){
+       $(".gl1").delay(2300).fadeIn(2000, function(){
+         $(".gl2").delay(2300).fadeIn(2000, function(){
+         $(".gl3").delay(2300).fadeIn(2000, function(){
+          $(".gl6").delay(2300).fadeIn(2000, function(){
+          $(".gl9").delay(2300).fadeIn(2000, function(){
+            $(".gl8").delay(2300).fadeIn(2000, function(){             
+            $(".gl7").delay(2300).fadeIn(2000, function(){
+   $("#gallery").delay(3000).css("backgroundImage","url(img/blueaurora.jpg");             
  });
  });
  });
