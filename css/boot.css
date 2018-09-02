@@ -221,6 +221,7 @@ h1 {
   
 }
 
+
 @media (max-width:800px) {
   .intcontainer {
     margin:0;
@@ -496,6 +497,7 @@ h1 {
 }
 .scbox > img{
   height:92%;
+  margin-bottom:30px;
 }
 
 .ball1, .ball2, .ball3 {
@@ -528,9 +530,9 @@ h1 {
 }
 
 
-.dgbody {
+/*.dgbody {
     height:50%; 
-}
+}*/
 
 
   
