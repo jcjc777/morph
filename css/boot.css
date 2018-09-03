@@ -52,7 +52,7 @@ h1 {
   /*top:50%;
   left:50%;
   transform:translate(-50%, -50%);*/
-  border: 10px solid #fff;
+  border: 12px solid #fff;
   border-image: linear-gradient(45deg, #f0f, #f00, #00f, #0f0);
   border-image-slice: 1;
   /*box-shadow: 0 15px 25px rgba(0,0,0,.2);*/
@@ -67,7 +67,6 @@ h1 {
 
 #button {
     width: 120px;
-    
     height: 120px;
     
     color: black;
@@ -86,10 +85,7 @@ h1 {
     font-size : 30px; 
     font-weight: bolder;
     
-    
-    
     /*box-shadow: 5px 5px 12px black;*/
-    
     /*transition: ease-in-out 0.6s;*/
 }
 
@@ -323,7 +319,7 @@ h1 {
   }
 }  
 
-/*infst page*/
+/*infst 5 page*/
 
 .infstbody {
     background-image: url("../img/starrynight.jpg");
@@ -404,7 +400,7 @@ h1 {
 }
 
 .slider-ul > li:nth-child(3) {
-    background:url("../img/redpinkboxes.png");
+    background:url("../img/redandpinkboxes.png");
     background-size: cover;
     background-position: left;
 }
@@ -451,7 +447,7 @@ h1 {
     
 }
 
-/*sc_st page*/
+/*schst 6 page*/
 
 .schbody {
     background-image: url("../img/SoccerField2.png");
@@ -495,16 +491,23 @@ h1 {
   margin-left: auto;
   margin-right: auto;*/
 }
-.scbox > img{
+
+/*.scbox > img{
   height:92%;
-  margin-bottom:30px;
-}
+}*/
+
+@media (max-width:780px) {
+  .scd1, .scd2, .scd3, .scbox {
+    margin-bottom:30px;
+  }
+}  
 
 .ball1, .ball2, .ball3 {
   background-image: url("../img/soccerballgm.png");
   border-radius:50%;
   height:200px;
   width:200px;
+  margin-bottom:30px;
   /*margin:0 auto;*/
   position:absolute;
   top:50%;
@@ -522,11 +525,15 @@ h1 {
 }*/
 
 
-/*ddg page*/
+/*ddg 4 page*/
 
 .ddgh3 {
   color:white;
   -webkit-text-stroke: 0.6px #0033a3;
+}
+
+.ddimg:hover {
+  transform:scale(1.2);
 }
 
 
